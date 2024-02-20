@@ -3,6 +3,7 @@
 header {
     background: rgba(160, 133, 114, 1);
 }
+
  /* About container on index */
 .itemLight {
     background-color: rgba(255, 248, 245, 1);
@@ -18,7 +19,6 @@ header {
 .itemDark {
     background-color: rgba(160, 133, 114, 1);
 }
-
 .lightTitle {
     color: rgb(255, 255, 255);
 }
@@ -32,14 +32,26 @@ header {
 
 li {
     color: rgba(240, 205, 196, 1);
-    list-style: none;
-    display:inline-block;
-    padding: 10px;
 }
+
+.featured {
+    background-color: rgba(251, 219, 211, 1);
+}
+
+.featuredItem {
+    background-color: white;
+}
+
+.buttonContainer {
+    background-color: rgba(231, 169, 129, 1);
+}
+
+.button {
+    color: white;
+}
+
 .footerText {
     color: rgba(240, 205, 196, 1);
-    padding: 20px;
-    text-align: center;
 }
 
 footer {

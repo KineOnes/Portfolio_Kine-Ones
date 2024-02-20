@@ -33,6 +33,12 @@ header li {
     flex-wrap: wrap;
 }
 
+.li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+}
+
 .navList {
     display: flex;
     margin: 0;
@@ -46,12 +52,61 @@ header li {
     font-size: 20px;
     margin-right: 20px;
 }
-  
-.itemImage {
-    width: 250px;
-    height: 350px;
+
+.containerIndex {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.itemImage {
+    width: 400px;
+    height: 400px;
+}
+
+.peachTitle {
+    text-align: center;
+}
+
+.peachParagraph {
+    text-align: left;
+}
+
+.itemLight {
+    padding: 30px;
+}
+
+.itemDark {
+    padding: 30px;
+}
+
+.lightParagraph {
+    text-align: left;
+}
+
+.featured {
+    display: flex;
+    padding: 20px;
+}
+
 .featuredImage {
-    width:300px;
-    height: 300px;
+    width:100%;
+    height: auto;
+}
+
+.featuredItem {
+    text-align: center; /* Center the contents within each featuredItem */
+    max-width: 320px;
+    padding: 20px;
+}
+
+.buttonContainer {
+    margin-top: 10px; /* Add some spacing between the image and the button */
+    max-width: 100px;
+    padding: 10px;
+}
+
+.footerText {
+    padding: 20px;
+    text-align: center;
 }
