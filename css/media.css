@@ -1,0 +1,16 @@
+/* Hamburger menu, when smaller screen*/
+
+@media (max-width: 600px) {
+.navList {
+    display: none; /* Hide the navigation list on smaller screens */
+  }
+
+  .navList.show {
+    display: flex; /* Show the navigation list when the 'show' class is added */
+    flex-direction: column; /* Adjust the layout for smaller screens */
+  }
+
+  .hamburger-menu {
+    display: block; /* Show the hamburger menu on smaller screens */
+  }
+}

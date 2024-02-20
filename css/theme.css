@@ -1,0 +1,47 @@
+/* font, typography, colors, soft touches */
+
+header {
+    background: rgba(160, 133, 114, 1);
+}
+ /* About container on index */
+.itemLight {
+    background-color: rgba(255, 248, 245, 1);
+}
+.peachTitle {
+    color: rgba(214, 129, 75, 1);
+}
+.peachParagraph {
+    color: rgba(214, 129, 75, 1);
+}
+
+/* Techniques container on index */
+.itemDark {
+    background-color: rgba(160, 133, 114, 1);
+}
+
+.lightTitle {
+    color: rgb(255, 255, 255);
+}
+.lightParagraph {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    color: rgba(240, 205, 196, 1);
+}
+
+li {
+    color: rgba(240, 205, 196, 1);
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+}
+.footerText {
+    color: rgba(240, 205, 196, 1);
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: rgba(160, 133, 114, 1);
+}
