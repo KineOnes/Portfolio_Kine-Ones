@@ -56,7 +56,7 @@ header li {
 .containerIndex {
     display: flex;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .itemImage {
@@ -70,6 +70,10 @@ header li {
 
 .peachParagraph {
     text-align: left;
+}
+
+.lightTitle {
+    text-align: center;
 }
 
 .itemLight {
