@@ -38,7 +38,11 @@ li {
     color: rgba(240, 205, 196, 1);
 }
 
-.featured {
+.featuredBackground {
+    background-color: rgba(251, 219, 211, 1);
+}
+
+.featured { /* background behind "featuredItems" (projects) to make them center align without pink background being as small */
     background-color: rgba(251, 219, 211, 1);
 }
 
@@ -55,6 +59,11 @@ li {
 }
 
 .footerText {
+    color: rgba(240, 205, 196, 1);
+}
+
+/* License to use two images from Freepik */
+.license {
     color: rgba(240, 205, 196, 1);
 }
 

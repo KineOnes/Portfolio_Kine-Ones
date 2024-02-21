@@ -13,4 +13,13 @@
   .hamburger-menu {
     display: block; /* Show the hamburger menu on smaller screens */
   }
+
+  .featured {
+    flex-direction: column;
+  }
+
+  .featuredItem {
+    margin: 0 0 10px 0;
+  }
+  
 }
