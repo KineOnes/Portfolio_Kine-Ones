@@ -5,6 +5,10 @@ body {
     padding-top: 90px; /* So content don´t dissapear behind header */
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .logo {
     max-width: 285px;
     max-height: 50px;
@@ -43,11 +47,23 @@ header li {
     flex-wrap: wrap;
 }
 
+nav {
+    background: rgba(160, 133, 114, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 .li {
     list-style: none;
     display:inline-block;
     padding: 10px;
 }
+
+.navList li {
+    margin-right: 20px;
+  }
 
 .navList {
     display: flex;
@@ -75,28 +91,16 @@ header li {
     height: 400px;
 }
 
-.peachTitle {
+.peachTitle, .lightTitle {
     text-align: center;
 }
 
-.peachParagraph {
+.peachParagraph, .lightParagraph {
     text-align: left;
 }
 
-.lightTitle {
-    text-align: center;
-}
-
-.itemLight {
+.itemLight, .itemDark {
     padding: 30px;
-}
-
-.itemDark {
-    padding: 30px;
-}
-
-.lightParagraph {
-    text-align: left;
 }
 
 .projectsTitle {
@@ -137,11 +141,7 @@ header li {
     border-radius: 3px;
 }
 
-.license {
-    text-align: center;
-}
-
-.footerText {
+.footerText, .license {
     padding: 20px;
     text-align: center;
 }

@@ -16,30 +16,19 @@ header, .itemDark /* itemDark=techniques container on index */ {
 .itemDark {
     background-color: rgba(160, 133, 114, 1);
 }
-.lightTitle {
-    color: rgb(255, 255, 255);
-}
-.lightParagraph {
+.lightTitle, .lightParagraph {
     color: rgb(255, 255, 255);
 }
 
-.logo {
+.logo,.hamburger-menu, .navList a {
     color: rgba(240, 205, 196, 1);
 }
 
-.hamburger-menu {
-    color: rgba(240, 205, 196, 1);
+.navList li {
+    margin-right: 20px;
 }
 
-li {
-    color: rgba(240, 205, 196, 1);
-}
-
-.featuredBackground {
-    background-color: rgba(251, 219, 211, 1);
-}
-
-.featured { /* background behind "featuredItems" (projects) to make them center align without pink background being as small */
+.featuredBackground, .featured {
     background-color: rgba(251, 219, 211, 1);
 }
 
