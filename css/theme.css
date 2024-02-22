@@ -1,6 +1,6 @@
 /* font, typography, colors, soft touches */
 
-header {
+header, .itemDark /* itemDark=techniques container on index */ {
     background: rgba(160, 133, 114, 1);
 }
 
@@ -8,10 +8,7 @@ header {
 .itemLight {
     background-color: rgba(255, 248, 245, 1);
 }
-.peachTitle {
-    color: rgba(214, 129, 75, 1);
-}
-.peachParagraph {
+.peachTitle, .peachParagraph {
     color: rgba(214, 129, 75, 1);
 }
 

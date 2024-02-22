@@ -65,6 +65,7 @@ header li {
 
 .containerIndex {
     display: flex;
+    flex-direction: row;
     max-width: 800px;
     margin: 10px auto;
 }
@@ -98,6 +99,12 @@ header li {
     text-align: left;
 }
 
+.projectsTitle {
+    text-align: center;
+    background-color: rgba(251, 219, 211, 1);
+    padding: 20px;
+  }
+
 .featured {
     display: flex;
     flex-direction: row;
@@ -121,8 +128,8 @@ header li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
 }
-
 .buttonContainer {
     margin-top: 10px; /* Add some spacing between the image and the button */
     max-width: 100px;
