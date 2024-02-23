@@ -32,6 +32,9 @@ header, .itemDark /* itemDark=techniques container on index */ {
     background-color: rgba(251, 219, 211, 1);
 }
 
+h2 {
+    font-size: 20px;
+}
 .featuredItem {
     background-color: white;
 }
