@@ -140,7 +140,7 @@ a {
     border-radius: 10px;
 }
 .buttonContainer {
-    margin-top: 10px; /* Add some spacing between the image and the button */
+    margin: 10px 0 0 0;
     max-width: 100px;
     padding: 10px;
     border-radius: 3px;
