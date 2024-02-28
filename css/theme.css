@@ -1,5 +1,10 @@
 /* font, typography, colors, soft touches */
 
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
 header, .itemDark /* itemDark=techniques container on index */ {
     background: rgba(160, 133, 114, 1);
 }
@@ -30,6 +35,10 @@ header, .itemDark /* itemDark=techniques container on index */ {
 
 .featuredBackground, .featured {
     background-color: rgba(251, 219, 211, 1);
+}
+
+h1 {
+    font-style: italic; 
 }
 
 h2 {
