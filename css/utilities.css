@@ -140,11 +140,17 @@ a {
     border-radius: 10px;
 }
 .buttonContainer {
-    margin: 10px 0 0 0;
+    margin: 10px auto;
     max-width: 100px;
     padding: 10px;
     border-radius: 3px;
     text-align: center;
+}
+
+
+.buttonContainer:hover {
+    background-color: rgb(187, 117, 70);
+
 }
 
 .footerText, .license {
