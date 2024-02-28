@@ -94,7 +94,6 @@ nav {
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
 }
 
 .peachTitle, .lightTitle {
@@ -145,9 +144,14 @@ a {
     max-width: 100px;
     padding: 10px;
     border-radius: 3px;
+    text-align: center;
 }
 
 .footerText, .license {
     padding: 20px;
     text-align: center;
+}
+
+.githubLogo {
+    width: 50px;
 }
