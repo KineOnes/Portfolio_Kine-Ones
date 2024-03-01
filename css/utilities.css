@@ -79,6 +79,10 @@ nav {
     margin-right: 20px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .containerIndex {
     display: flex;
     flex-direction: row;
@@ -87,7 +91,7 @@ nav {
 }
 
 .itemImage {
-    width: 400px;
+    width: 375px;
     height: 400px;
 }
 

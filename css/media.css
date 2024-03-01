@@ -1,8 +1,15 @@
 /* Hamburger menu, when smaller screen*/
 
 @media (max-width: 600px) {
-.navList {
+
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+  }    
+  
+  .navList {
     display: none; /* Hide the navigation list on smaller screens */
+    order: 1;
   }
 
   .navList.show {
